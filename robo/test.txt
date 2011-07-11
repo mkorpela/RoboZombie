@@ -1,0 +1,7 @@
+*** Settings ***
+Library  Remote  http://localhost:1337
+
+*** Test Cases ***
+Testi
+  Remote Log  moro
+
