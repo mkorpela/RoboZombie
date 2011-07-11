@@ -3,5 +3,11 @@ Library  Remote  http://localhost:1337
 
 *** Test Cases ***
 Testi
-  Remote Log  moro
+  Open Browser  http://localhost:7272/html/index.html
+  Input Text  username_field  demo
+  Input Text  password_field  mode
+  Click Button  login_button
+  Location Should Be  http://localhost:7272/html/welcome.html
+  Title Should Be  Welcome Page
+  Close Browser
 
