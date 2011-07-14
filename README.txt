@@ -1,3 +1,12 @@
+WHAT YOU NEED:
+robot framework
+node.js
+zombie.js
+node-xmlrpc
+coffeescript
+
+.. you need to figure out how to install/compile those things by your self.
+
 HOW TO RUN THE TEST:
 #start robozombie
 coffee robozombie.coffee
