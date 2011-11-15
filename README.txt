@@ -19,7 +19,7 @@ node robozombie.js
 cd robo
 
 #start the server
-python server.pu start
+python server.py start
 
 #run the test
 pybot test.txt
